@@ -20,12 +20,13 @@ function addPhraseToDisplay(arr){
             var li = `<li>${arr[i]}</li>`;
         } else{
           // i was able to grab all the buttons and my goal is 
+// i was able to grab all the buttons and my goal is 
             let buttons = document.querySelectorAll('#qwerty buttons') 
-            var li = document.createElement('LI');
+            var li = `<li class="letter">${arr[i]}</li>`;
           
-//          there's a pre-defined style for letter class so i want to add letter class to all my list items which i done below
-            li.setAttribute('class','letter')
-            li.innerText = `${arr[i]}`;
+//          
+//          my problem is that i want to add show class too when sokmeonec click on respective button meaning if someone click on a button with the text content of 'w' then in th grey box i want the 'w' word pops up i made a pre deifinned style for popup style too name show please try to solve this please
+          
           
 //          
 //          my problem is that i want to add show class too when sokmeonec click on respective button meaning if someone click on a button with the text content of 'w' then in th grey box i want the 'w' word pops up i made a pre deifinned style for popup style too name show please try to solve this please
